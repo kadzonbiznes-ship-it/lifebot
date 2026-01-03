@@ -1,0 +1,17 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package java.lang.annotation;
+
+import java.lang.annotation.Documented;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
+@Documented
+@Retention(value=RetentionPolicy.RUNTIME)
+@Target(value={ElementType.ANNOTATION_TYPE})
+public @interface Target {
+    public ElementType[] value();
+}
+

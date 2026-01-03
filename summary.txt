@@ -1,0 +1,232 @@
+Summary for C:\Users\waria\Desktop\update\lifebot\lifebot.jar
+Decompiled with CFR 0.152
+
+
+com.google.gson.internal.$Gson$Types
+----------------------------
+
+resolve(java.lang.reflect.Type java.lang.Class<?> java.lang.reflect.Type java.util.Map<java.lang.reflect.TypeVariable<?>, java.lang.reflect.Type> )
+  Unable to fully structure code
+
+
+com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl
+----------------------------
+
+next()
+  Unable to fully structure code
+
+
+io.netty.channel.nio.NioEventLoop
+----------------------------
+
+run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [15[SWITCH], 17[CASE]], but top level block is 3[TRYBLOCK]
+
+
+io.netty.util.NetUtil
+----------------------------
+
+sysctlGetInt(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [8[FORLOOP]], but top level block is 3[TRYBLOCK]
+
+
+java.awt.DefaultKeyboardFocusManager
+----------------------------
+
+typeAheadAssertions(java.awt.Component java.awt.AWTEvent )
+  Unable to fully structure code
+
+
+java.awt.Polygon
+----------------------------
+
+contains(double double )
+  Unable to fully structure code
+
+
+java.math.BigInteger
+----------------------------
+
+smallPrime(int int java.util.Random )
+  Unable to fully structure code
+
+
+java.text.DecimalFormat
+----------------------------
+
+appendAffix(java.lang.StringBuilder java.lang.String java.lang.String boolean )
+  Unable to fully structure code
+
+
+java.util.GregorianCalendar
+----------------------------
+
+computeTime()
+  Unable to fully structure code
+
+
+java.util.concurrent.CompletableFuture
+----------------------------
+
+tryFire(int )
+  Unable to fully structure code
+tryFire(int )
+  Unable to fully structure code
+tryFire(int )
+  Unable to fully structure code
+tryFire(int )
+  Unable to fully structure code
+tryFire(int )
+  Unable to fully structure code
+tryFire(int )
+  Unable to fully structure code
+
+
+java.util.concurrent.ConcurrentLinkedDeque
+----------------------------
+
+updateHead()
+  Unable to fully structure code
+updateTail()
+  Unable to fully structure code
+
+
+java.util.concurrent.ConcurrentSkipListMap
+----------------------------
+
+findLast()
+  Unable to fully structure code
+doRemoveLastEntry()
+  Unable to fully structure code
+
+
+java.util.concurrent.DelayQueue
+----------------------------
+
+take()
+  Unable to fully structure code
+poll(long java.util.concurrent.TimeUnit )
+  Unable to fully structure code
+
+
+java.util.concurrent.ForkJoinPool
+----------------------------
+
+poolSubmit(boolean java.util.concurrent.ForkJoinTask<T> )
+  Unable to fully structure code
+
+
+java.util.prefs.AbstractPreferences
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+java.util.prefs.WindowsPreferences
+----------------------------
+
+toJavaName(byte[] )
+  Unable to fully structure code
+
+
+javax.crypto.JceSecurity
+----------------------------
+
+setupJurisdictionPolicies()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+javax.swing.plaf.basic.BasicTabbedPaneUI
+----------------------------
+
+calculateTabRects(int int )
+  Exception : java.lang.ClassCastException: class org.benf.cfr.reader.bytecode.analysis.opgraph.Op03SimpleStatement cannot be cast to class org.benf.cfr.reader.bytecode.analysis.opgraph.Op04StructuredStatement (org.benf.cfr.reader.bytecode.analysis.opgraph.Op03SimpleStatement and org.benf.cfr.reader.bytecode.analysis.opgraph.Op04StructuredStatement are in unnamed module of loader 'app')
+
+
+javax.swing.text.html.parser.Parser
+----------------------------
+
+parseScript()
+  Unable to fully structure code
+
+
+org.lwjgl.opengl.GL
+----------------------------
+
+createCapabilities(boolean java.util.function.IntFunction<org.lwjgl.PointerBuffer> )
+  Unable to fully structure code
+createCapabilitiesWGLDummy()
+  Loose catch block
+
+
+org.pbrands.security.TimingChecker
+----------------------------
+
+checkTiming$1826497816(int )
+  Unable to fully structure code
+
+
+sun.font.Type1Font
+----------------------------
+
+initNames(java.nio.ByteBuffer )
+  Unable to fully structure code
+
+
+sun.net.www.protocol.http.HttpURLConnection
+----------------------------
+
+getInputStream0()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [14[DOLOOP]], but top level block is 6[TRYBLOCK]
+
+
+sun.net.www.protocol.https.HttpsClient
+----------------------------
+
+New(javax.net.ssl.SSLSocketFactory java.net.URL javax.net.ssl.HostnameVerifier java.net.Proxy boolean int sun.net.www.protocol.http.HttpURLConnection )
+  Unable to fully structure code
+
+
+sun.nio.ch.FileChannelImpl
+----------------------------
+
+mapInternal(java.nio.channels.FileChannel$MapMode long long int boolean )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+sun.nio.ch.NioSocketImpl
+----------------------------
+
+implRead(byte[] int int )
+  Loose catch block
+implWrite(byte[] int int )
+  Loose catch block
+
+
+sun.nio.ch.SocketChannelImpl
+----------------------------
+
+read(java.nio.ByteBuffer )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
+read(java.nio.ByteBuffer[] int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
+blockingRead(byte[] int int long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
+
+
+sun.security.ssl.SSLSocketImpl
+----------------------------
+
+close()
+  Loose catch block
+closeSocket(boolean )
+  Loose catch block
+
+
+sun.security.ssl.TrustManagerFactoryImpl
+----------------------------
+
+engineInit(java.security.KeyStore )
+  Unable to fully structure code

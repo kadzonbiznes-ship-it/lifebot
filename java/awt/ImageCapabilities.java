@@ -1,0 +1,31 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package java.awt;
+
+public class ImageCapabilities
+implements Cloneable {
+    private boolean accelerated = false;
+
+    public ImageCapabilities(boolean accelerated) {
+        this.accelerated = accelerated;
+    }
+
+    public boolean isAccelerated() {
+        return this.accelerated;
+    }
+
+    public boolean isTrueVolatile() {
+        return false;
+    }
+
+    public Object clone() {
+        try {
+            return super.clone();
+        }
+        catch (CloneNotSupportedException e) {
+            throw new InternalError(e);
+        }
+    }
+}
+
